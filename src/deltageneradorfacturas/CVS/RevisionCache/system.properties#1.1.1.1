@@ -1,0 +1,23 @@
+# syswarp archivo de propiedades
+# conexion al host
+#------------------------------------------------------------------
+local.url=jdbc:postgresql://bell-sa.dyndns.org:55432/delta_prest
+local.clase=org.postgresql.Driver
+local.usuario=postgres
+local.clave=manager
+
+#path.documentos = /datos/jboss-5.1.0.GA/server/default/deploy/delta.ear/deltaWeb.war/facturas/
+path.documentos = /home/prest/facturas/
+path.www = http://prestsa.dyndns.org:59090/delta/reportes/facturas/
+path.dirreportes = /home/prest/reportes/
+#path.dirreportes = /datos/desarrollo/jboss-5.1.0.GA/server/default/custom/reportes/
+path.reporte = modelo.factura.ri.mon.ext.jrxml
+path.jasper = modelo.factura.ri.mon.ext.jasper
+
+#mail.username = carlos.perez@syswarp.com.ar
+#mail.password = m2nd2r1n2
+
+mail.username = carlos.cperez@gmail.com
+mail.password = f9amcAEuVFge
+mail.cc = rpatino@prest-sa.com
+mail.bcc = carlos.perez@syswarp.com.ar
